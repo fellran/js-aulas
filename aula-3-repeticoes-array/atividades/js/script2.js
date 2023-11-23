@@ -2,7 +2,8 @@
 contador = 0;
 while (contador <= 10){
     contador++
-    console.log(``);
+    console.log(`${contador} x 8 = ${contador * 8}`);
 }
+
 
 
