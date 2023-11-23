@@ -22,7 +22,7 @@ else if(idade >= 60){
     alert("Voçe é um Idoso");
 }
 else{
-    alert("idade invalida")
+    alert("idade invalida");
 };
 
 var novoCalculo = confirm("Deseja colocar outra idade");
