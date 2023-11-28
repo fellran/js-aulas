@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#style-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+form{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#btnFilme{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(35, 92, 35);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.post{
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(255, 228, 196, 0.473);
+}
+
+#resposta{
+    display: flex;
+    justify-content: center;
+}
