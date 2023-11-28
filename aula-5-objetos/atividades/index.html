@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atv-Objetos</title>
+    <style>
+        .post{
+            width: 200px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px gray;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: wheat;
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>CRIE SEU CARRO</h1>
+    <form action="#">
+        <input type="text" id="marca" placeholder="Marca">
+        <input type="text" id="modelo" placeholder="Modelo">
+        <input type="date" id="data" placeholder="Data">
+        <input type="color" id="cor" placeholder="Cor">
+        <input type="number" id="velocidadeMax" placeholder="Velocidade Maixima">
+        <button type="button" id="btnCarro">CRIAR CARRO</button>
+    </form>
+
+    <div id="resposta"></div>
+
     <script src="./js/script.js"></script>
 </body>
 </html>
