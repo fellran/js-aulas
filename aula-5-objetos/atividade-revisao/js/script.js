@@ -29,7 +29,7 @@ function cadastro(){
     var filme = new Filme(nomeInput, descricaoInput, dataInput, diretorInput ,categoriaInput);
 
     // SAIDA DE DADOS
-    resposta.innerHTML = `<div class="post">
+    resposta.innerHTML += `<div class="post">
                             <h3>Nome - ${filme.nome}</h3>
                             <p>Descricao - ${filme.descricao}</p>
                             <p>Data - ${filme.data}</p>
@@ -37,3 +37,4 @@ function cadastro(){
                             <p>Categoria - ${filme.categoria}</p>
                             </div>`
 };
+

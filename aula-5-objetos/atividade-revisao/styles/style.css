@@ -64,10 +64,12 @@ input{
     gap: 10px;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: rgba(255, 228, 196, 0.473);
 }
 
 #resposta{
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
