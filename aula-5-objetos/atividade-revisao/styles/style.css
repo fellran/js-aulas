@@ -43,7 +43,7 @@ input{
     border-radius: 10px;
 }
 
-#btnFilme{
+.btnGroup{
     width: 100px;
     height: 30px;
     background-color: rgb(35, 92, 35);
