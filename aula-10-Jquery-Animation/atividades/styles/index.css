@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
-#page{
+.pageLaranja{
     display: flex;
     flex-direction: column;
+    background-color: rgba(255, 166, 0, 0.664);
+    color: white;
 }
 
 header{
@@ -16,8 +18,16 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: orange;
-    color: white;
+    /* background-color: rgba(255, 166, 0, 0.664); */
+    /* color: white; */
+}
+
+#box-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
 }
 
 #logo{
@@ -29,6 +39,16 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 5px 5px 10px gray;
+}
+
+#btnTrocar{
+    width: 80px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -45,3 +65,42 @@ nav a{
     font-size: 20px;
     margin-right: 20px;
 }
+
+/* main */
+#bannerTijolo{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/banner-tijolos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#infoTijolo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    /* background-color: rgba(255, 166, 0, 0.664); */
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+/* temas */
+.pageEscuro{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
