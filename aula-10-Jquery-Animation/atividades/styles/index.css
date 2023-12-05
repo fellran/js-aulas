@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#page{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    color: white;
+}
+
+#logo{
+    width: 60px;
+    height: 50px;
+    margin-left: 100px;
+    background-image: url(../images/tijolo-logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 5px 5px 10px gray;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
