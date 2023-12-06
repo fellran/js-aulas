@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+#page{
+    width: 100%;
+    
+}
+
 .pageLaranja{
     display: flex;
     flex-direction: column;
@@ -44,7 +49,7 @@ header{
 #btnTrocar{
     width: 80px;
     height: 40px;
-    background-color: orange;
+    background-color: rgb(68, 187, 127);
     border: none;
     border-radius: 8px;
     color: white;
@@ -69,7 +74,7 @@ nav a{
 /* main */
 #bannerTijolo{
     width: 100%;
-    height: 400px;
+    height: 600px;
     background-image: url(../images/banner-tijolos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,6 +82,8 @@ nav a{
 }
 
 #infoTijolo{
+    width: 100%;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
