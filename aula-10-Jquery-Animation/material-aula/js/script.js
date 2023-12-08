@@ -24,10 +24,10 @@ $("#animacao5").on("click", function(){
 
 $("#animacao6").on("click", function(){
     // caixa.slideUp(1000);
-    // caixa.slideDowm(100);
+     caixa.slideDown(1000);
     // caixa.fadeOut(1000);
     // caixa.hide(2000);
-    caixa.show(1000);
+    // caixa.show(1000);
 });
 
 $("#animacao7").on("click", function(){
